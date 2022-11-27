@@ -41,7 +41,7 @@ int GetSumOfOddIndex(int[] array)
 }
 
 int[] newArray = GetRandomArray(8, -9, 99);
-Console.ForegroundColor = ConsoleColor.Magenta;
+Console.ForegroundColor = ConsoleColor.Yellow;
 PrintArray(newArray);
 Console.ResetColor();
 int summa = GetSumOfOddIndex(newArray);
